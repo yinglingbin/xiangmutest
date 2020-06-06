@@ -15,7 +15,7 @@ const es2015 = require('babel-preset-es2015');
 
 const imagemin = require('gulp-imagemin');
 
-
+const watch = require('gulp-watch');
 
 
 
@@ -60,4 +60,10 @@ gulp.task('uglifyimg',()=>{
     return gulp.src('src/img/*.{jpg,png,gif}')
         .pipe(imagemin())
         .pipe(gulp.dest('dist/img'))
+})
+
+gulp.task('default',()=>{
+    watch(['src/thirdplugins/*.js','src/*.html','src/css/*.css','src/script/*.js','src/img/*.{jpg,png,gif}']
+    ,gulp.parallel('copyfile','uglifyhtml','uglifycss','uglifyjs','uglifyimg'))
+
 })
