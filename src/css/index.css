@@ -44,6 +44,9 @@
 .top_r ul a:hover{
     color: orange;
 }
+.top_r .top_r_special{
+    color: #fe9900;
+}
 
 .nav {
     width: 100%;
@@ -204,37 +207,39 @@
 
 
 
-
-
-
-
 .main-wrap {
     width: 100%;
-    border-bottom: 1px solid #bbb; }
-    .main-wrap .main {
+    border-bottom: 1px solid #bbb; 
+}
+.main-wrap .main {
       width: 1190px;
       margin: auto;
-      padding: 20px 0; }
-      .main-wrap .main .presell-nav {
+      padding: 20px 0;
+ }
+.main-wrap .main .presell-nav {
         display: flex;
         background-color: #ED1700;
         padding: 5px 0 10px;
-        justify-content: space-between; }
-        .main-wrap .main .presell-nav a {
+        justify-content: space-between; 
+}
+.main-wrap .main .presell-nav a {
           display: block;
           background: linear-gradient(to right, #FF3F04 0%, #FF2929 100%);
           width: 230px;
-          height: 213px; }
-          .main-wrap .main .presell-nav a img {
-            width: 100%; }
-          .main-wrap .main .presell-nav a .title {
+          height: 213px; 
+}
+.main-wrap .main .presell-nav a img {
+            width: 100%; 
+}
+.main-wrap .main .presell-nav a .title {
             font-size: 20px;
             height: 28px;
             line-height: 28px;
             margin: 10px 8px;
             color: #fff;
-            text-align: center; }
-          .main-wrap .main .presell-nav a .info {
+            text-align: center; 
+}
+.main-wrap .main .presell-nav a .info {
             width: 150px;
             height: 30px;
             line-height: 30px;
@@ -243,135 +248,92 @@
             color: orangered;
             text-align: center;
             margin: auto;
-            border-radius: 15px; }
-      .main-wrap .main .seckill {
-        height: 330px;
-        margin-top: 20px; }
-        .main-wrap .main .seckill .seckill-left {
-          width: 790px;
-          height: 330px;
-          float: left;
-          background-color: #fff;
-          border-radius: 8px; }
-          .main-wrap .main .seckill .seckill-left .title {
-            height: 46px;
-            width: 760px;
-            border-bottom: 1px solid #666;
-            margin: auto;
-            font-size: 14px; }
-            .main-wrap .main .seckill .seckill-left .title img {
-              float: left;
-              height: 25px;
-              width: 91px;
-              margin-top: 10px; }
-            .main-wrap .main .seckill .seckill-left .title .p1 {
-              height: 45px;
-              line-height: 45px;
-              float: left;
-              margin: 0 8px; }
-            .main-wrap .main .seckill .seckill-left .title .time1 {
-              float: left; }
-              .main-wrap .main .seckill .seckill-left .title .time1 span {
-                width: 24px;
-                height: 24px;
-                background-color: #000;
-                border-radius: 3px;
-                color: #fff;
-                display: inline-block;
-                vertical-align: bottom;
-                margin: 12px 10px 0 0;
-                font-size: 16px;
-                line-height: 24px;
-                text-align: center; }
-            .main-wrap .main .seckill .seckill-left .title .time2 {
-              float: left;
-              height: 24px;
-              line-height: 24px;
-              margin: 10px 15px 0 215px;
-              width: 133px;
-              text-align: center;
-              border-radius: 10px;
-              color: #fff;
-              background-color: orangered; }
-            .main-wrap .main .seckill .seckill-left .title .time3 {
-              margin-left: 25px;
-              height: 45px;
-              line-height: 45px; }
-          .main-wrap .main .seckill .seckill-left .seckill-left-c a {
-            box-sizing: border-box;
-            width: 25%;
-            height: 280px;
-            display: block;
-            float: left;
-            text-align: center; }
-            .main-wrap .main .seckill .seckill-left .seckill-left-c a img {
-              width: 80%; }
-            .main-wrap .main .seckill .seckill-left .seckill-left-c a .c-title {
-              margin: 30px 0; }
-        .main-wrap .main .seckill .seckill-right {
-          width: 390px;
-          height: 330px;
-          float: right; }
-          .main-wrap .main .seckill .seckill-right img {
-            width: 100%;
-            height: 100%; }
-      .main-wrap .main .allshop {
-        width: 100%;
-        margin-top: 20px; }
+            border-radius: 15px;
+}
   
-  .louceng {
-    width: 70px;
-    height: 300px;
-    position: fixed;
-    top: 200px;
-    left: 205px;
-    padding-top: 10px;
-    background-color: #F8F8F8;
-    border: 1px solid #bbb;
-    text-align: center;
-    font-size: 12px;
-    display: none; }
-    .louceng img {
-      width: 45px;
-      height: 37px;
-      position: absolute;
-      top: -28px;
-      left: 12px; }
-    .louceng li {
-      height: 29px;
-      border-bottom: 1px solid #bbb;
-      line-height: 29px;
-      cursor: pointer; }
-      .louceng li.hover {
-        background: #ff9800;
-        color: #fff; }
-      .louceng li:hover {
-        background: #ff9800;
-        color: #fff; }
-    .louceng a {
-      display: block;
-      height: 30px;
-      line-height: 30px;
-      color: #ff9800; }
-  
-  .shangbu {
-    text-align: center;
-    background: rgba(255, 255, 255, 0.5);
-    display: none;
-    position: fixed;
-    top: 0;
-    width: 100%; }
-    .shangbu img {
-      width: 1190px; }
-  
-  .xiabu {
-    text-align: center;
-    background: rgba(255, 255, 255, 0);
-    width: 100%;
-    display: none;
-    position: fixed;
-    bottom: 10px; }
-    .xiabu img {
-      width: 1190px; }
+/*list*/
+.list {
+    width: 1190px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.list li {
+    width: 200px;
+    padding: 10px;
+    float: left;
+    margin: 0 10px 10px 0;
+    border: 1px solid #ccc;
+    height: 310px;
+    position: relative;
+}
+
+.list li p {
+    width: 200px;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.list li img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.list li span {
+   display: block;
+} 
+.list li a{
+    color: black;
+    cursor: pointer;
+}
+.list li a:hover{
+    color: #fe9900;
+}
 
 
+  
+  
+
+    .footer-wrap{
+        position: relative;
+    width: 1190px;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 15px;
+   }
+   .footer{
+       position: absolute;
+       bottom: -1721px;
+        left: 317px;
+       width: 990px;
+       height: 100%;
+       margin: auto;
+       font-size: 12px;
+       text-align: center;
+       line-height: 25px;
+   }
+   .footer .urllist span{
+       margin: 0 8px;
+   }
+   .urllist a{
+       text-decoration: none;
+       color: #666;
+   }
+   .copyright{
+       width: 990px;
+       margin: auto;
+       font-size: 12px;
+       text-align: center;
+       line-height: 25px;
+       color: #999;
+   }
+   .copyright span{
+       margin: 0 8px;
+   }
+   .copyright a{
+       text-decoration: none;
+       color: #999;
+   }
+   

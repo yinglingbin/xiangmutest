@@ -47,9 +47,10 @@ body{
 .main{
     width: 990px;
     height: 445px;
-    background: pink;
+    background: white;
     margin: 0 auto;
     border-top: 3px solid orangered;
+    border: 1px solid #ccc;
 }
 .user_reg{
     width: 380px;
@@ -129,4 +130,68 @@ body{
     outline: none;
     float: left;
     border: none;
+}
+.regTip{
+    width: 100%;
+    height: 50px;
+
+}
+.regBtn{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    color: white;
+    background: #f40;
+    text-decoration: none;
+    margin: 24px 0 5px;
+}
+.footer-wrap{
+   height: 200px;
+   box-sizing: border-box;
+   padding-top: 15px;
+}
+.footer{
+    width: 990px;
+    height: 100%;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+.footer .urllist span{
+    margin: 0 8px;
+}
+.urllist a{
+    text-decoration: none;
+    color: #666;
+}
+.copyright{
+    width: 990px;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    color: #999;
+}
+.copyright span{
+    margin: 0 8px;
+}
+.copyright a{
+    text-decoration: none;
+    color: #999;
+}
+.thirdurl{
+    width: 990px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.thirdurl img{
+    height: 25px;
+}
+.thirdurl a{
+    margin:  0 10px;
 }

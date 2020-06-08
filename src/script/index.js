@@ -112,32 +112,41 @@
     
 
 
+//ajax渲染
+const  $list = $('.list');
+$.ajax({
+    url:'http://localhost/xiangmutest1/php/alldata.php',
+    dataType:'json'
+}).done(function(data){
+    console.log(data)
+    let $strhtml = '<ul>';
+    $.each(data,function(index,value){
+        $strhtml += `
+        <li>
+            <a href="list.html?sid=${value.sid}" target = "_blank">
+                <img class ="lazy" data-original="${value.url}" width="200" height="200"/>
+                <p>${value.sid}${value.title}</p>
+                <span class = "price">￥${value.price}</span>
+                <span>${value.sailnumber}</span>
+            </a>
+        </li>
+        
+        `;
+    })
+    $strhtml += '</ul>'
+    $list.html($strhtml);
+
+    $(function(){
+        $("img.lazy").lazyload({effect:"fadeIn"});
+    })
+
+    
+})
 
 
 
 
-    var flaglou = true;
-  $(window).scroll(function () {
-    if (flaglou) {
-      var st = $(window).scrollTop();
-
-      if (st >= $(".seckill").offset().top) {
-        $(".louceng").show();
-        $(".shangbu").show();
-        $(".xiabu").show();
-      } else {
-        $(".louceng").hide();
-        $(".shangbu").hide();
-        $(".xiabu").hide();
-      }
-
-      $(".allshop").each(function (i, val) {
-        if (st >= $(this).offset().top - 200) {
-          $(".louceng li").eq(i).addClass("hover").siblings("li").removeClass("hover");
-        }
-      });
-    }
-  });
+   
 }(jQuery);
 
 
