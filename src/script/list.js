@@ -16,11 +16,11 @@
         $.each(data, function (index, value) {
             $strhtml += `
                 <li>
-                    <a href="detail.html?sid=${value.goods_id}" target="_blank">
-                        <img class="lazy" data-original="${value.goods_big_logo}" width="200" height="200"/>
-                        <p>${value.goods_id}${value.goods_name}</p>
-                        <span class="price">￥${value.goods_price}</span>
-                        <span>${value.goods_number}</span>
+                    <a href="detail.html?sid=${value.sid}" target="_blank">
+                        <img class="lazy" data-original="${value.url}" width="200" height="200"/>
+                        <p>${value.sid}${value.title}</p>
+                        <span class="price">￥${value.price}</span>
+                        <span>${value.sailnumber}</span>
                     </a>
                 </li>
             `;
@@ -68,11 +68,11 @@
                 $.each(data, function (index, value) {
                     $strhtml += `
                         <li>
-                            <a href="detail.html?sid=${value.goods_id}" target="_blank">
-                                <img src="${value.goods_big_logo}"/>
-                                <p>${value.goods_id}${value.goods_name}</p>
-                                <span class="price">￥${value.goods_price}</span>
-                                <span>${value.goods_number}</span>
+                            <a href="detail.html?sid=${value.sid}" target="_blank">
+                                <img src="${value.url}"/>
+                                <p>${value.sid}${value.title}</p>
+                                <span class="price">￥${value.price}</span>
+                                <span>${value.sailnumber}</span>
                             </a>
                         </li>
                     `;

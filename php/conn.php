@@ -1,6 +1,8 @@
 <?php
 //1.设置字符编码
 header('content-type:text/html;charset=utf-8');
+header('Access-Control-Allow-Origin:*');
+header('Access-Control-Allow-Method:POST/GET');
 
 //2.数据库连接
 define('HOST', 'localhost'); //主机名
