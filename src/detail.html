@@ -3,11 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>商品详情</title>
     <link rel="stylesheet" href="./css/detail.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
+    <div class="top">
+        <div class="top-wrap">
+            <nav>
+                <p>
+                    <a href="javascript:;">网站导航</a>
+                    <a href="javascript:;">商家入驻</a>
+                    <a href="javascript:;">客户服务</a>
+                    <a href="javascript:;">网站导航</a>
+                </p>
+            </nav>
+            <div class="top_r">
+                <ul>
+                    <li>
+                        <a href="login.html">请登录</a>
+                    </li>
+                    <li>
+                        <a href="registry.html" class="top_r_special">注册有礼</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">我的订单</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">我的易购</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">苏宁会员</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">易购宝</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </div>
+     <!--sousuo-->
+     <div class="nav">
+        <div class="nav-left">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="search">
+            <form action="#">
+                <input type="search" class="search-frame" placeholder="输入关键字搜索商品/商铺/品牌" onfocus="this.placeholder=''"
+                onblur="this.placeholder='输入关键字搜索商品/商铺/品牌'">
+                <input type="submit" value="搜索" class="search-input">
+            </form>
+        </div>
+   </div>
+   <hr>
+
+
     <div class="goodsinfo">
         <div class="box">
             <a href="cart.html" target="_blank">进入购物车</a>
@@ -43,6 +93,7 @@
         </div>
     </div>
 
+   
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="thirdplugins/jquery.cookie.js"></script>
     <script src="./script/detail.js"></script>

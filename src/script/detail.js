@@ -151,7 +151,7 @@
             arrnum.push($('#count').val()); 
             $.cookie('cookienum', arrnum, { expires: 10, path: '/' });
         }
-        alert('按钮触发了');
+        alert('已加入购物车');
     });
 
 
