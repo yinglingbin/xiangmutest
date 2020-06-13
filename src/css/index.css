@@ -33,12 +33,14 @@
 }
 .top_r ul li{
     padding: 0 7px;
-    height: 12px;
+    height: 40px;
+    
 }
 .top_r ul a{
     font-size: 12px;
-    line-height: 12px;
+    line-height: 40px;
     color:#666;
+    text-align: center;
    
 }
 .top_r ul a:hover{
@@ -47,6 +49,16 @@
 .top_r .top_r_special{
     color: #fe9900;
 }
+.admin{
+    margin-left: 60px;
+    float: left;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    color: #666;
+}
+
 
 .nav {
     width: 100%;

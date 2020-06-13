@@ -33,16 +33,16 @@
                     <!--middle-->
                     <div class="user_login">
                            <form action="">
-                                <input type="text" class="user_name" placeholder="用户名/手机号/邮箱" onfocus="this.placeholder=''"
+                                <input type="text" name="username" class="username" placeholder="用户名/手机号/邮箱" onfocus="this.placeholder=''"
                                 onblur="this.placeholder='用户名/手机号/邮箱'">
-                                <input type="password" class="password" placeholder="密码" onfocus="this.placeholder=''"
+                                <input type="password" name="password" class="password" placeholder="密码" onfocus="this.placeholder=''"
                                 onblur="this.placeholder='密码'">
                                 <div class="forgetmima">
                                     <a class="duanxin" href="#">短信验证码登录</a>
                                     <a class="forgetmima_r" href="#">忘记密码？</a>
                                   
                                 </div>
-                                <a id="submit" href="javascript:;">登录</a>
+                                <a id="submit" href="javascript:;" class="btn">登录</a>
                            </form>
                            <div class="reg"><a href="registry.html">注册&nbsp;有惊喜&nbsp;&gt;</a></div>
                     </div>
@@ -94,7 +94,8 @@
         </div>
 </div>
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script src="script/sha1.js"></script>
+    <script src="./script/sha1.js"></script>
+    <script src="./script/login.js"></script>
 </body>
 
 </html>
